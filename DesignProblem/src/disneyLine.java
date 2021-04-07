@@ -33,7 +33,7 @@ public class disneyLine {
 		Line2.add("dude");
 		Line2.add("person");
 
-		// Line 4
+		//Fast Line
 		fastLine.add("lol");
 		
 		//calling methods
@@ -62,6 +62,7 @@ public class disneyLine {
 
 			if (Line1.size() <= Line2.size()) {
 				// do nothing
+				Line1.add(input);
 				System.out.println(Line1);
 
 			}
